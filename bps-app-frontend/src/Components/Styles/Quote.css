@@ -1,0 +1,55 @@
+.title-section{
+    position: relative;
+    top: 25%;
+    display: block;
+    text-align: right;
+}
+.title-body{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+    right: 3%;
+}
+.heading {
+    font-family: 'Playfair Display SC', serif;
+    color: rgba(2, 2, 25, 0.9);
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+.quote {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 2, 25, 0.9);
+    position: relative;
+    margin-top: 5%;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-align: center;
+}
+.author{
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 2, 25, 0.9);
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+        .title-body{
+            width: 80%;
+            position: relative;
+            right: 0%;
+        }
+        .title-section{
+            text-align: center;
+        }
+        .author{
+            color: white;
+        }
+        .quote{
+            color: white;
+        }
+        .heading{
+            color: white;
+        }
+}

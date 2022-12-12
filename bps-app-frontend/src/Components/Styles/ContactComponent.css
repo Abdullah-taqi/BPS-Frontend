@@ -1,0 +1,46 @@
+.field{
+    margin: 6px 1rem;
+    display: flex;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.form-input{
+    width: 60%;
+    flex: 1;
+    margin-left: 2px;
+}
+.form-button{
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #09093fc9;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border-radius: 2px;
+}
+.form-button:hover{
+    cursor: pointer;
+    
+}
+textarea{
+    border: none;
+    outline: none;
+}
+select{
+    border: none;
+    outline: none;
+}
+#successmsg{
+    margin-top: 3rem;
+    margin-left: 0rem;
+    color: green;
+}
+option{
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+

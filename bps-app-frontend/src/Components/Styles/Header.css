@@ -1,0 +1,361 @@
+#badge-div{
+    height: 17rem;
+    width: 100%;
+    z-index: -2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.badge-nav-icons{
+    color: #fff;
+
+}
+#slider-div{
+    background-color: rgba(105, 105, 105, 0.207);
+    width: 80vw;
+    height: 40rem;
+    position: relative;
+    z-index: 5;
+    margin: 5% auto auto auto;
+    display: flex;
+    align-items: center;
+}
+#badge{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+    /* background-color: #f23645; */
+}
+.badge-title {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lato';
+    z-index: 1;
+    display: block;
+    text-transform: uppercase;
+    width: 10.5rem;
+    /* position: relative; */
+    /* top: 150px; */
+    /* left: 190px; */
+    letter-spacing: -4px;
+    line-height: 50px;
+    border-bottom: 5px solid #437EF4;
+    /* height: 108px; */
+
+}
+.badge-nav-icons{
+    height: 3rem;
+    width: 3rem;
+}
+.badge-body {
+    height: 100%;
+    width: 80vw;
+    padding: -1px 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+.badge-body:hover {
+    overflow-x: hidden; 
+    
+}
+.badge-scroll{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+.badge-body::-webkit-scrollbar {
+height: 6px;
+}
+
+.badge-body::-webkit-scrollbar-thumb {
+background-color: #7775;
+}
+
+.badge-body::-webkit-scrollbar-thumb:hover {
+background-color: #7775;
+}
+
+.badge-body::-webkit-scrollbar-track {
+background-color: #5555;
+}
+
+.badge-body::-webkit-scrollbar-track:hover {
+background-color: #5555;
+}
+
+
+
+.symbol-tI2rVa43, .symbol-tI2rVa43:link, .symbol-tI2rVa43:visited {
+    color: #000;
+    width: 16rem;
+    margin-bottom: 0.5rem;
+}
+
+.symbol-tI2rVa43 {
+    outline: none;
+    overflow: visible;
+    position: relative;
+}
+
+
+
+.symbol-tI2rVa43 {
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 56px;
+    box-sizing: border-box;
+    column-gap: 8px;
+    cursor: pointer;
+    direction: ltr;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    min-width: 16rem;
+    padding: 6px 16px 6px 12px;
+    width: 193px;
+    margin-right: 10px;
+    position: relative;
+    /* right: 39px */
+}
+
+.tv-circle-logo {
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.name-tI2rVa43 {
+    font-feature-settings: "tnum" on,"lnum" on;
+    font-family: -apple-system,BlinkMacSystemFont,Trebuchet MS,Roboto,Ubuntu,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.symbolInfo-tI2rVa43{
+    position: relative;
+    left: 10px;
+}
+
+
+.negativeValue-tI2rVa43 {
+    color: #f23645;
+}
+
+.posValue-tI2rVa43 {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "tnum" on,"lnum" on;
+    color: #434651;
+    font-family: -apple-system,BlinkMacSystemFont,Trebuchet MS,Roboto,Ubuntu,sans-serif;
+    font-size: 14px;
+}
+
+
+#main3{
+    height: 600px;
+    width: 100%;
+    background-color: #01011d;
+    position: relative;
+}
+.caroussel-2{
+    position: relative;
+    width: 80rem;
+    z-index: 2;
+}
+.about-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    width: 100%;
+}
+.slides-div{
+    width: 80%;
+    height: 60vh;
+    background-color: rgba(105, 105, 105, 0.207);
+    margin: auto;
+    margin-top: 1rem;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#main4{
+    height: 600px;
+    width: 100%;
+}
+
+.About{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.About-title {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 2rem;
+    font-family: 'Lato';
+    letter-spacing: -4px;
+    line-height: 50px;
+    border-bottom: 5px solid #437EF4;
+    display: block;
+    z-index: 5;
+    position: relative;
+    text-transform: uppercase;
+    margin-right: 2px;
+    margin-bottom: 2rem;
+    width: fit-content;
+    margin: auto;
+}
+.About-content{
+    position: relative;
+    max-width: 60%;
+    background-color: #fff;
+    backdrop-filter: blur(6px);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+#main-4 p {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+   
+}
+
+@media only screen and (max-width: 1000px) {
+    
+        .badge-body {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 55%;
+        }
+        .badge-title{
+            width: auto;
+            margin-top: 10%;
+        }
+        .badge-body:hover {
+        overflow-x: hidden;
+
+        }
+        .next, .prev{
+            display: none;
+        }
+        #badge{
+            flex-direction: column;
+            margin-top: 25%;
+            margin-bottom: 15%;
+            padding: 0;
+        }
+        .about-div{
+            flex-direction: column-reverse;
+            margin-bottom: 1rem;
+            padding: 0;
+            margin-top: 5%;
+        }
+        .caroussel-2{
+            width: 90%;
+            margin: 5% 0;
+        }
+        .About{
+            align-items: center;
+        }
+        .About-content{
+            margin: auto;
+        }
+        #badge-div{
+            margin: 5% 0;
+            overflow-y: scroll;
+        }
+        #badge-div::-webkit-scrollbar{
+            display: none;
+        }
+        #slider-div{
+            width: 100vw;
+            height: 25rem;
+        }
+        .container-slider{
+            width: 80%;
+            height: 100%;
+        }
+        
+}
+
+@media only screen and (max-width: 600px){
+    .home-about{
+        display: none;
+    }
+    #slider-div{
+        display: none;
+    }
+    #badge {
+        flex-direction: column;
+        margin-top: 30%;
+        padding: 0;
+    }
+    .badge-title{
+        padding: 0;
+        width: auto;
+        margin-top: 1%;
+        margin-left: -1rem;
+    }
+    .About-title{
+        font-size: 2rem;
+    }
+    .About{
+        margin-top: 1rem;
+        align-items: center;
+        width: 90%;
+    }
+    .About-content{
+        max-width: 100%;
+    }
+    .container-slider{
+        margin: 0;
+    }
+    #slider-div{
+        width: 100vw;
+        height: 15rem;
+    }
+}

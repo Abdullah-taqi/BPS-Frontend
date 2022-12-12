@@ -1,0 +1,43 @@
+.main-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    width: 15rem;
+   
+}
+.logo2{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: -4px;
+	text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.smalltext {
+    font-size: 0.9rem;
+    /* margin-top: 100px;
+    margin-left: -2304px; */
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+	margin: 0px;
+	padding: 2px;
+    /* margin-top: -7%; */
+	/* display: block; */
+	text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo:hover{
+    color:white;
+}

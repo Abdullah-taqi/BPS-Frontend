@@ -1,0 +1,335 @@
+.news-list{
+    background-color: rgba(105, 105, 105, 0.207);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding: 6rem 0;
+    position: relative;
+    margin-top: 3vh;
+    padding: 3%;
+}
+#dailyupdates{
+        color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        top: 1rem;
+        margin-top: 20vh;
+}
+.news-item-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+}
+.news-item{
+    color: black;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1.5% 2%;
+}
+.date-time-source{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+}
+.date-time-source p{
+    color: gray;
+}
+hr{
+    width: 100%;
+}
+.leftnewsitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+.leftnewsitem img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 5px;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.rightnewsitem{
+    padding: 0 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.rightnewsitem h3{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.news-desc{
+    color: black;
+    text-align: justify;
+    font-style: italic;
+    display: flex;
+}
+#read-more-btn{
+    background-color: #01011d;
+    color: white;
+    border-radius: 3px;
+    height: 2rem;
+    width: 6rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+/* .............................. Morning Scan .................................. */
+    .morning-scan{
+        width: 100%;
+        height: 40%;
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+        position: relative;
+        overflow-y: scroll;
+        margin-bottom: 10%;
+    }
+    .news-left{
+        width: 60%;
+        height: 110vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+    .news-right{
+        width: 40%;
+        height: 115vh;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        margin-left: 5%;
+    }
+    .read-source{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1% 2%;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 1%;
+        background-color: rgb(238, 233, 233);
+        margin: 0;
+    }
+    .read-source button{
+        background-color: #01011d;
+        color: white;
+        padding: 0.2rem 1rem;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .read-source button:hover{
+        background-color: #060630;
+        cursor: pointer;
+    }
+    .read-source p{
+        color: rgb(76, 76, 76);
+        font-size: 0.7rem;
+    }
+    #news-headlines{
+        overflow: scroll;
+        height: 100%;
+    }
+    #news-headlines p{
+        color: black;
+        padding: 1% 5%;
+        text-align: justify;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        height: fit-content;
+        text-transform: uppercase;
+    }
+    #news-headlines hr{
+        color: rgb(180, 179, 179);
+        margin: auto;
+        width: 90%;
+    }
+    #news-headlines ul{
+        padding: 1rem;
+    }
+    #news-headlines ul li{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 0.5em;
+        list-style: disc;
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+/* .............................. MOSPI UPDATE ................................ */
+
+    .mospi-update{
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        position: relative;
+        overflow-y: scroll;
+        border-radius: 0 0 5px 5px;
+    }
+    #mospi-header{
+        width: 100%;
+        height: 4vh;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+    }
+    .mospi-item{
+        color: black;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    #announcements{
+        margin-top: 4vh;
+        overflow: scroll;
+        height: 85%;
+    }
+    #announcements ul{
+        margin-top: 5vh;
+    }
+    #announcements ul li{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 0.5em;
+        list-style: disc;
+        margin-left: 1rem;
+    }
+    .mospi-item{
+        background-color: rgba(233, 232, 232, 0.238);
+        margin-bottom: 1%;
+        margin-left: 1%;
+    }
+    #mospi-link{
+        color: black;
+        font-weight: 600;
+        text-align: left;
+    }
+    #mospi-date{
+        color: grey;
+        font-style: italic;
+        font-size: 0.7rem;
+    }
+/* ............................................................... */
+
+@media only screen and (max-width: 1000px) {
+    
+    .news-list{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80%;
+    }
+    .news-right{
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .news-left{
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .news-item{
+        width: 100%;
+    }
+    .news-item-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftnewsitem img{
+        width: 100%;
+        margin: 0.7rem 0;
+    }
+    .rightnewsitem h3{
+        font-size: 1rem;
+        font-weight: 560;
+    }
+    .rightnewsitem{
+        padding: 0;
+    }
+    .date-time-source p{
+        font-size: 0.5rem;
+    }
+    #read-more-btn{
+        position: relative;
+        width: 6rem;
+        padding: 5% 10%;
+    }
+    #dailyupdates{
+        font-size: 3rem;
+    }
+    .read-source p{
+        font-size: 8px;
+    }
+    
+}
+.morning-scan::-webkit-scrollbar { 
+    display: none !important;
+}
+.mospi-update::-webkit-scrollbar { 
+    display: none !important;
+}
+#announcements::-webkit-scrollbar { 
+    display: none !important;
+}
+#news-headlines::-webkit-scrollbar { 
+    display: none !important;
+}
+.news-right::-webkit-scrollbar { 
+    display: none !important;
+}
+.news-left::-webkit-scrollbar { 
+    display: none !important;
+}
+@media only screen and (max-width: 1300px) {
+    .read-source p{
+        display: none;
+    }
+    .read-source a{
+        margin: 0.2rem auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+   
+   #read-more-btn{
+    position: relative;
+    width: 100%;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+    overflow: hidden;
+    }
+   #dailyupdates{
+    font-size: 2.5rem;
+   }
+
+}

@@ -1,0 +1,23 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+.anim-bg-1{
+    width: 72vw;
+    margin-left: -1.5rem;
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+    
+}
+.anim-bg-2{
+    margin: auto;
+    display: flex;
+    width: 29vw;
+}
+.anim-bg{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+}
